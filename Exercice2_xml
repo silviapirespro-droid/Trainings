@@ -11,7 +11,7 @@
             <prixUnitaire>12.00</prixUnitaire>
         </produit>
             <produit sku="chanel">
-            <libelle>Mascara</libelle>
+            <libelle>Perfume</libelle>
             <quantite>1</quantite>
             <prixUnitaire>13.00</prixUnitaire>
         </produit>
