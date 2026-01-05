@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facture numero="F-2026-001" date="2026-01-21" devise="EUR">
+    <client id="1" type="ENTREPRISE">
+        <nom>silvia</nom>
+        <email>silvia@gmail.com</email>
+        <telephone>0612121212</telephone>
+        <adresse>
+            <rue>Rua des fleurs</rue>
+            <ville>Lisboa</ville>
+            <codePostal>75000</codePostal>
+            <pays>Portugal</pays>
+        </adresse>
+    </client>
+    <lignes>
+        <ligne reference="Dior">
+            <designation>RAL</designation>
+            <quantite>2</quantite>
+            <prixUnitaire>10</prixUnitaire>
+            <tauxTVA>5.5</tauxTVA>
+        </ligne>
+    </lignes>
+    <totalHT>20</totalHT>
+    <totalTVA>1.1</totalTVA>
+    <totalTTC>21.1</totalTTC>
+</facture>

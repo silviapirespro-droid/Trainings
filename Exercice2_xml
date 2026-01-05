@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commande id="1" date="2025-12-12">
+    <client>
+        <nom>silvia</nom>
+        <email>silvia@gmail.complexType</email>
+    </client>
+    <produits>
+        <produit sku="dior">
+            <libelle>Rouge a levres</libelle>
+            <quantite>1</quantite>
+            <prixUnitaire>12.00</prixUnitaire>
+        </produit>
+            <produit sku="chanel">
+            <libelle>Mascara</libelle>
+            <quantite>1</quantite>
+            <prixUnitaire>13.00</prixUnitaire>
+        </produit>
+    </produits>
+</commande>

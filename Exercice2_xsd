@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="commande">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="client">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom" type="xs:string"/>
+              <xs:element name="email" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="produits">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="produit" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="libelle" type="xs:string"/>
+                    <xs:element name="quantite" type="xs:int"/>
+                    <xs:element name="prixUnitaire" type="xs:decimal"/>
+                  </xs:sequence>
+                  <xs:attribute name="sku" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:int" use="required"/>
+      <xs:attribute name="date" type="xs:date" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

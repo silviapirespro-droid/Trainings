@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="livre">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titre" type="xs:string"/>
+                <xs:element name="author" type="xs:string"/>
+                <xs:element name="prix" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
